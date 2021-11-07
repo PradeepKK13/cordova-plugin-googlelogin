@@ -56,6 +56,18 @@
         </dict>
       </array>
     </config-file>
+	  
+    <config-file target="*-Info.plist" parent="UIUserInterfaceStyle">
+	  <string>Light</string>
+	</config-file>
+
+	<config-file target="*-Info.plist" parent="UIStatusBarStyle">
+	  <string>UIStatusBarStyleDarkContent</string>
+	</config-file>
+
+	<config-file target="*-Info.plist" parent="UIViewControllerBasedStatusBarAppearance">
+	  <false/>
+    </config-file>
 
     <config-file parent="keychain-access-groups" target="*/Entitlements-Debug.plist">
       <array>
@@ -88,7 +100,7 @@
 	<pod name="GoogleUtilities" spec="~> 7.6.0"/>-->
 	      
 	<pod name="GoogleSignIn" spec="~> 5.0.2"/>
-        <pod name="GoogleUtilities" spec="~> 7.2.2"/>
+        <pod name="GoogleUtilities" spec="~> 7.6.0"/>
       </pods>
     </podspec>
 
