@@ -85,7 +85,7 @@
       <pods use-frameworks="true">
         <!--<pod name="GoogleSignIn" spec="~> 5.0.2"/>-->
 	<pod name="GoogleSignIn" spec="~> 6.0.0"/>
-        <!--<pod name="GoogleUtilities" spec="~> 7.2.2"/>-->
+        <pod name="GoogleUtilities" spec="~> 7.2.2"/>
       </pods>
     </podspec>
 
