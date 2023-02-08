@@ -60,7 +60,11 @@
     <config-file target="*-Info.plist" parent="UIUserInterfaceStyle">
 	  <string>Light</string>
 	</config-file>
-
+	  
+	<config-file target="*-Info.plist" parent="IPHONEOS_DEPLOYMENT_TARGET>
+	  <string>12</string>
+	</config-file>
+						   
 	<config-file target="*-Info.plist" parent="UIStatusBarStyle">
 	  <string>UIStatusBarStyleDarkContent</string>
 	</config-file>
@@ -102,8 +106,8 @@
 	<pod name="GoogleSignIn" spec="~> 5.0.2"/>
         <pod name="GoogleUtilities" spec="~> 7.7.0"/>-->
 	      
-	<pod name="GoogleSignIn" spec="~> 6.0.0"/>
-        <pod name="GoogleUtilities" spec="~> 6.6"/>
+	<pod name="GoogleSignIn" spec="~> 5.0.2"/>
+        <pod name="GoogleUtilities" spec="~> 7.7.0"/>
 	      
 	 
       </pods>
