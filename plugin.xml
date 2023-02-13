@@ -61,9 +61,9 @@
 	  <string>Light</string>
 	</config-file>
 	  
-	<config-file target="*-Info.plist" parent="IPHONEOS_DEPLOYMENT_TARGET>
+	<!--<config-file target="*-Info.plist" parent="IPHONEOS_DEPLOYMENT_TARGET>
 	  <string>12</string>
-	</config-file>
+	</config-file>-->
 						   
 	<config-file target="*-Info.plist" parent="UIStatusBarStyle">
 	  <string>UIStatusBarStyleDarkContent</string>
